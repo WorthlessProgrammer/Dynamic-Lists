@@ -21,7 +21,7 @@ void appendInt(INT_list* list, int element)
 		list->data[list->length] = element;
 		list->length++;
 	} else {
-		fprintf(stderr, "ERROR: list overflow, can't append more than %d elements\n", list -> size);
+		fprintf(stderr, "ERROR: list overflow, can't append more than %d elements\n", list->size);
 	}
 		
 }
