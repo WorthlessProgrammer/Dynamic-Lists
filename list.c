@@ -11,7 +11,7 @@ void initializeIntList(INT_list* list, int max_size)
 	if (max_size <= INT_MAX_CAP){
 		list->data = malloc(sizeof(int) * max_size);	
 	} else{
-		fprintf(stderr, "ERROR: Memory overflow, could not allocate > %d\n", INT_MAX_CAP);
+		fprintf(stderr, "ERROR: Memory overflow, could not allocate more than %d bytes\n", INT_MAX_CAP);
 	}
 }
 
