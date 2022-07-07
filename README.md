@@ -7,10 +7,9 @@ IMPORTANT: Only as long as the datatype is heterogenous.
 The data is stored in an array.
 
 ##USAGE:
-
+- [TODO] Document USAGE.
 
 ## TO DO:
-- [] Document USAGE.
 - [] Resizeable array for data.
 - [] Python-like functions for lists (sort, remove, etc...).
 - [] Implement lists for other basic types of c. 
