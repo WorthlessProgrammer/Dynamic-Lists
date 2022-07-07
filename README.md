@@ -6,7 +6,7 @@ This header file <list.h> implements python-like lists and  it's functions.
 IMPORTANT: Only as long as the datatype is heterogenous. 
 The data is stored in an array.
 
-##USAGE:
+## USAGE:
 - [TODO] Document USAGE.
 
 ## TO DO:
